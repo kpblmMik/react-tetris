@@ -22,7 +22,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v5
       with:
-        images: guckguck/react-tetris-image
+        images: kpblm256/react-tetris
         tags: |
           type=semver,pattern={{version}}
 
