@@ -5,8 +5,6 @@
  WORKDIR /app
 
 # Install dependencies 
-# Note that first package.json and package-lock.json (if any ) 
-# This allows Docker to make better use of the build cache
 COPY package*.json .
 RUN npm ci 
 
